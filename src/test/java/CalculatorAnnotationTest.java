@@ -25,8 +25,6 @@ public class CalculatorAnnotationTest {
 	public void should_give_error_on_adding_negative_number_annotation() {
 		Calculator calculator = new Calculator("calculator");
 		calculator.add(1, -1);
-		// We'd rather want:
-		// calculator.subtract(1, 1);
 	}
 
 }
