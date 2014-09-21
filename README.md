@@ -10,4 +10,5 @@ Due to how the example is constructed, one of the tests will fail if you attempt
 
 ## License
 Copyright (c) 2014, Hans Joachim Desserud
+
 Released under the BSD 2-Clause License. See LICENSE for details.
