@@ -1,10 +1,13 @@
 public class Calculator {
 
+	private final String name;
+
 	public Calculator(String name) {
 		if (name.charAt(0) != (name.toUpperCase().charAt(0))) {
 			throw new IllegalArgumentException(
 					"Names must start with a capital letter!");
 		}
+		this.name = name;
 	}
 
 	public int add(int a, int b) {
@@ -20,4 +23,7 @@ public class Calculator {
 		return intialValue - part;
 	}
 
+	public String getName() {
+		return name;
+	}
 }

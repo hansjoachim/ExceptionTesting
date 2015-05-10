@@ -6,7 +6,7 @@ public class CalculatorAnnotationTest {
 	@Test
 	public void can_create_calculator() {
 		Calculator calculator = new Calculator("My Calculator");
-		Assert.assertNotNull(calculator);
+		Assert.assertEquals("My Calculator", calculator.getName());
 	}
 
 	@Test
