@@ -1,8 +1,7 @@
 #ExceptionTesting
 
-Small project looking at different ways of verifying exceptions are thrown in Java. 
-
-Created as example code for an upcoming blog post.
+This is the example code for [my blog post on different strategis for testing exceptions in Java].
+[my blog post on different strategis for testing exceptions in Java]: http://desserud.org/?p=253
 
 ## Known issues
 
